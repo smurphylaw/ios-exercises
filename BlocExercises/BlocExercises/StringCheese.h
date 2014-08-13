@@ -28,7 +28,7 @@
 - (NSString *) favoriteCheeseStringWithCheese:(NSString *)cheeseName;
 
 /**
- Removes "cheese" from the end of a string about cheese and only returns 
+ Removes "cheese" from the end of a string about cheese and on/Users/Murphy/Xcode Projects/ios-exercises/BlocExercises/BlocExercises/EqualityDeterminer.hly returns 
  the name of the cheese.
  
  Example usage:
