@@ -12,7 +12,14 @@
 
 - (NSString *) stringWithNumbersBetweenNumber:(NSInteger)number andOtherNumber: (NSInteger)otherNumber {
     /* WORK HERE */
-    return @"";
+    NSInteger startingNumber = MIN(number, otherNumber);
+    NSInteger endingNumber = MAX(number, otherNumber);
+    NSString *result = @"";
+        for (startingNumber ; startingNumber <= endingNumber; startingNumber++) {
+        result = [result stringByAppendingString:[NSString stringWithFormat:@"%ld", startingNumber]];
+        }
+    
+    return result;
 }
 
 @end
